@@ -5,11 +5,11 @@ import DatePicker from "react-datepicker";
 import '../CovidReport/CovidReport.css'
 import  Spinner  from '../Spinner/Spinner'
 import moment from 'moment';
-import apiCall from '../../Util/apiService'
-import CovidSummary from '../CovidSummary/CovidSummary'
+import apiCall from '../../Util/apiService';
+import CovidSummary from '../CovidSummary/CovidSummary';
 
 // config comes from environment with dev or prod
-import apiConfig from '../../config/config_'+process.env.NODE_ENV
+import apiConfig from `../../config/config_${process.env.NODE_ENV}`;
 import "react-datepicker/dist/react-datepicker.css";
 
 class CovidReport extends Component{
