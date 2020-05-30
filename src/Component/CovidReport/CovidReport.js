@@ -9,7 +9,7 @@ import apiCall from '../../Util/apiService';
 import CovidSummary from '../CovidSummary/CovidSummary';
 
 // config comes from environment with dev or prod
-import apiConfig from `../../config/config_${process.env.NODE_ENV}`;
+import apiConfig from '../../config/config_production';
 import "react-datepicker/dist/react-datepicker.css";
 
 class CovidReport extends Component{
