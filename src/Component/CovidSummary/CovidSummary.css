@@ -1,0 +1,11 @@
+strong{
+    font-size: 80px;
+  }
+  .report{
+    height: 10vh; /* Magic here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
